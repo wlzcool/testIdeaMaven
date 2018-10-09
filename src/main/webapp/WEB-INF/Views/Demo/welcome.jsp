@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-${requestScope.Message}
+${requestScope.Message}00
 </body>
 </html>
