@@ -22,7 +22,7 @@ public class DemoController {
         return "Hello Spring";
     }
 
-    @RequestMapping(path = "test", method = RequestMethod.GET)
+    @RequestMapping(value = "test", method = RequestMethod.GET)
     @ResponseBody
     public ModelAndView testModelAndView() {
         logger.info("testModelAndView 方法被调用");
