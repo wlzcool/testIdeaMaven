@@ -16,5 +16,10 @@
     <input name="lastName" value="三" type="text"/>
     <input type="submit"/>
 </form>
+<form action="/anno/showparamresult" method="post">
+    <input name="firstName" value="张" type="text"/>
+    <input name="lastName" value="三" type="text"/>
+    <input type="submit"/>
+</form>
 </body>
 </html>

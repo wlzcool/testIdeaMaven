@@ -21,6 +21,16 @@ public class AnnoController {
         return "/Anno/showresult";
     }
 
+    @RequestMapping(path = "showparamresult")
+    public String ShowParamResult(String firstName, String LastName) {
+        ModelAndView mv = new ModelAndView();
+        mv.addObject("FirstName", firstName);
+        mv.addObject("lastName", LastName);
+        logger.info(firstName);
+        logger.info(LastName);
+        return "/Anno/showparamresult";
+    }
+
     @RequestMapping(path = "index")
     public String Index() {
         return "/Anno/index";
