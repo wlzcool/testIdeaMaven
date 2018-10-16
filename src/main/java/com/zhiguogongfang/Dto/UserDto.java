@@ -1,15 +1,22 @@
 package com.zhiguogongfang.Dto;
 
 public class UserDto {
-    private String firstName;
+    private String firstname;
     private String lastName;
 
+    public UserDto(){
+
+    }
+    public UserDto(String firstName,String lastName){
+        this.firstname=firstName;
+        this.lastName=lastName;
+    }
     public String getFirstName() {
-        return firstName;
+        return firstname;
     }
 
     public void setFirstName(String firstName) {
-        this.firstName = firstName;
+        this.firstname = firstName;
     }
 
     public String getLastName() {
